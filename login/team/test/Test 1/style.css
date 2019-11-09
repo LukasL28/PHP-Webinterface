@@ -1,0 +1,155 @@
+* {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #1c1c23;
+}
+
+.auswahl {
+  width: 600px;
+}
+
+.owner {
+  float: left;
+  width: 265px;
+  position: relative;
+  line-height: 1.6em;
+  margin: 1% auto;
+  padding: 3% 50px 0px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 15px;
+}
+
+.admin {
+  float: left;
+  width: 265px;
+  position: relative;
+  line-height: 1.6em;
+  margin: 1% auto;
+  padding: 3% 50px 0px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 15px;
+  padding-top: 3%;
+
+}
+.mod {
+  float: left;
+  width: 265px;
+  position: relative;
+  line-height: 1.6em;
+  margin: 1% auto;
+  padding: 3% 50px 0px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 15px;
+  padding-top: 3%;
+
+}
+
+
+.text {
+padding-top: 20%;
+}
+
+
+img:hover {
+  transform: scale(1.15);
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+  text-align: center;
+  padding-top: 3%;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+
+.desc {
+  border: 2px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  color: rgb(226, 226, 226);
+  margin-top: 8%;
+  font-family: 'Nunito', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+@media screen and (max-width: 1500px){
+.text {
+  padding-top: 25%;
+}
+}
+@media screen and (max-width: 1200px){
+.text {
+  padding-top: 30%;
+}
+}
+@media screen and (max-width: 980px){
+.text {
+  padding-top: 35%;
+}
+}
+@media screen and (max-width: 835px){
+.text {
+  padding-top: 40%;
+}
+}
+@media screen and (max-width: 740px){
+.text {
+  padding-top: 50%;
+}
+.mod{
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.admin{
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+}
+@media screen and (max-width: 580px){
+.text {
+  padding-top: 50%;
+}
+.mod{
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.admin{
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.desc{
+  opacity: 0;
+}
+
+}

@@ -1,0 +1,166 @@
+#particles-js {
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: src(#particles-js);
+  background-image: url('XMAS_Background.png');
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logout {
+  border: 2px solid #ccc;
+  background-color: transparent;
+  color: #ccc;
+  width: 140px;
+  height: 40px;
+}
+
+.account {
+  border: 2px solid #ccc;
+  background-color: transparent;
+  color: #ccc;
+  width: 140px;
+  height: 40px;
+}
+.admin {
+  border: 2px solid #ccc;
+  background-color: transparent;
+  color: #ccc;
+  width: 140px;
+  height: 40px;
+}
+.add {
+  border: 2px solid #ccc;
+  background-color: transparent;
+  color: #ccc;
+  width: 140px;
+  height: 40px;
+}
+.add:hover {
+  background-color: #ccc;
+  color: #000000;
+  transition: all 200ms;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -o-transition: all 200ms;
+}
+.account:hover {
+  background-color: #ccc;
+  color: #000000;
+  transition: all 200ms;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -o-transition: all 200ms;
+}
+.logout:hover {
+  background-color: #ccc;
+  color: #000000;
+  transition: all 200ms;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -o-transition: all 200ms;
+}
+.admin:hover {
+  background-color: #ccc;
+  color: #000000;
+  transition: all 200ms;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -o-transition: all 200ms;
+}
+.buttons {
+  text-align: center;
+}
+
+.desc {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  background-color: #1c1c23;
+}
+
+.auswahl {
+  border: 2px solid #ccc;
+  margin: 5%;
+  float: left;
+  width: 180px;
+}
+
+.auswahl:hover {
+  transform: scale(1.05);
+  transition: all 300ms;
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -o-transition: all 300ms
+  cursor: pointer;
+}
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+  text-align: center;
+}
+label {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+  text-align: center;
+}
+
+.auswahl img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  color: rgb(226, 226, 226);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+.version {
+  text-align: right;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
